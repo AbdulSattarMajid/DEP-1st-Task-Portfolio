@@ -202,7 +202,7 @@ section {
 }
 
 .portiion.html .skills-level::after {
-    width: 80%;
+    width: 90%;
 }
 
 .portiion.css .skills-level::after {
@@ -210,11 +210,11 @@ section {
 }
 
 .portiion.javascript .skills-level::after {
-    width: 75%;
+    width: 80%;
 }
 
 .portiion.react .skills-level::after {
-    width: 75%;
+    width: 80%;
 }
 
 .portiion.nodejs .skills-level::after {
