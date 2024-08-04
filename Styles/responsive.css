@@ -1,0 +1,143 @@
+@media (max-width: 768px) {
+    nav{
+        position: relative;
+    }
+    nav ul {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: auto;
+    }
+
+    .header {
+        padding: 4rem 1rem;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .intro {
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .intro h1 {
+        font-size: 1.5rem;
+    }
+
+    .intro h2 {
+        margin: 10px 0;
+        font-size: 2rem;
+    }
+
+    .intro h3 {
+        font-size: 1.5rem;
+    }
+
+    .intro p {
+        font-size: 1.4rem;
+    }
+
+    .social-links {
+        margin-right: 0;
+    }
+
+    .profile-pic {
+        max-width: 70%;
+    }
+
+    .skills-row {
+        flex-direction: column;
+    }
+
+    .portiion {
+        flex: 1 1 100%;
+        margin: 1rem 0;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .projects-container {
+        flex-direction: column;
+    }
+
+    .project {
+        margin: 1rem;
+    }
+
+    .project h3 {
+        font-size: 1.5rem;
+    }
+
+    .project p {
+        font-size: 1.2rem;
+    }
+
+    .project a {
+        font-size: 1rem;
+    }
+
+    .hobby {
+        font-size: 1.4rem;
+        margin: 0.5rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    nav{
+        position: relative;
+    }
+    .header {
+        padding: 5rem 1.5rem;
+        height: 500px;
+    }
+
+    .intro {
+        max-width: 70%;
+    }
+
+    .intro h1 {
+        font-size: 1.8rem;
+    }
+
+    .intro h2 {
+        font-size: 2.5rem;
+    }
+
+    .intro h3 {
+        font-size: 1.7rem;
+    }
+
+    .intro p {
+        font-size: 1.5rem;
+    }
+
+    .skills-row {
+        flex-direction: column;
+    }
+
+    .portiion {
+        flex: 1 1 calc(50% - 1rem);
+    }
+
+    .projects-container {
+        flex-direction: row;
+    }
+
+    .project {
+        margin: 1rem;
+    }
+
+    .project h3 {
+        font-size: 1.6rem;
+    }
+
+    .project p {
+        font-size: 1.3rem;
+    }
+
+    .project a {
+        font-size: 1.1rem;
+    }
+}
