@@ -4,8 +4,13 @@ body {
     background: linear-gradient(135deg, #3a0c6c, #ff0077);
     color: #fff;
     text-align: center;
-}
+    scroll-behavior: smooth;
 
+}
+html{
+    scroll-behavior: smooth;
+
+}
 nav {
     position: fixed;
     width: 100%;
